@@ -34,8 +34,8 @@ class Home extends Component {
 				</div>
 				
 				<div>
-					<h1 style={{ fontSize: "45px" }}>Video Meeting</h1>
-					<p style={{ fontWeight: "200" }}>Video conference website that lets you stay in touch with all your friends.</p>
+					<h1 style={{ fontSize: "45px" }}>MeetUp Now</h1>
+					<p style={{ fontWeight: "200" }}>Video conference website that lets you stay in touch with all your friends. Unlimited Users, Screen Share, Meet Chat and more. All For Free.</p>
 				</div>
 
 				<div style={{
@@ -45,7 +45,7 @@ class Home extends Component {
 					<p style={{ margin: 0, fontWeight: "bold", paddingRight: "50px" }}>Start or join a meeting</p>
 					<Input placeholder="Meet Name or ID" onChange={e => this.handleChange(e)} />
 					<Button variant="contained" color="primary" onClick={this.join} style={{ margin: "20px" }}>Go</Button>
-                                        <p style={{ margin: 0, fontSize: "10px", paddingRight: "50px" }}>Keep it something difficult so others cant join, else leave it we will give it a name</p>
+                                        <p style={{ margin: 0, fontSize: "10px", paddingRight: "50px" }}>Keep the Meet ID/Name something difficult so others cant join, else leave it we will give it a name</p>
 				</div>
 			</div>
 		)
