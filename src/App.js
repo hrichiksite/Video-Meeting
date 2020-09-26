@@ -10,7 +10,7 @@ class App extends Component {
 				<Router>
 					<Switch>
 						<Route path="/" exact component={Home} />
-						<Route path="/:url" component={Video} />
+						<Route path="/meet/:url" component={Video} />
 					</Switch>
 				</Router>
 			</div>
