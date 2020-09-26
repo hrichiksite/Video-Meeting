@@ -494,6 +494,7 @@ class Video extends Component {
 								</IconButton>
 							</Badge>
 						</div>
+<center>You are connected to the MeetUp Global Network via a data center in Mumbai.</center>
 
 						<Modal show={this.state.showModal} onHide={this.closeChat} style={{ zIndex: "999999" }}>
 							<Modal.Header closeButton>
