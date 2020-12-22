@@ -20,8 +20,7 @@ import Modal from 'react-bootstrap/Modal'
 import 'bootstrap/dist/css/bootstrap.css'
 import "./Video.css"
 
-const server_url = process.env.NODE_ENV === 'production' ? 'https://server.meet.logyc.xyz' : "http://localhost:4001"
-
+const server_url = process.env.NODE_ENV === 'production' ? 'https://video.sebastienbiollo.com' : "http://localhost:4001"
 var connections = {}
 const peerConnectionConfig = {
 	'iceServers': [
